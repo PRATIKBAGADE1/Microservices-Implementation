@@ -48,13 +48,13 @@ User Microservice <----> Contact Microservice
 - Base URL: http://eureka-server:8761
 
 ### User Microservice:
-- Base URL: http://user-service:port
+- Base URL: http://user-service:9001
 - API Endpoints:
   - /users - User-related operations
   - ...
 
 ### Contact Microservice:
-- Base URL: http://contact-service:port
+- Base URL: http://contact-service:9002
 - API Endpoints:
   - /contacts - Contact-related operations
   - ...
