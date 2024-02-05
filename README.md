@@ -34,6 +34,7 @@ External Client
   |      |
   v      v
 User Microservice <----> Contact Microservice
+```
 
 ## Key Components:
 
