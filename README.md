@@ -44,8 +44,8 @@ User Microservice <----> Contact Microservice
 ### User Microservice:
 - Base URL: http://user-service:port
 - API Endpoints:
-- - /users - User-related operations
-- - ...
+  - /users - User-related operations
+  - ...
 
 ### Contact Microservice:
 - Base URL: http://contact-service:port
@@ -53,10 +53,9 @@ User Microservice <----> Contact Microservice
   - /contacts - Contact-related operations
   - ...
     
-API Gateway:
-
-Base URL: http://api-gateway:port
-Routes:
-/users/* - Routes to User Microservice
-/contacts/* - Routes to Contact Microservice
-...
+### API Gateway:
+- Base URL: http://api-gateway:port
+- Routes:
+  - /users/* - Routes to User Microservice
+  - /contacts/* - Routes to Contact Microservice
+  - ...
