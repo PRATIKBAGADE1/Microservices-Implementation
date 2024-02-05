@@ -49,9 +49,10 @@ User Microservice <----> Contact Microservice
 
 ### Contact Microservice:
 - Base URL: http://contact-service:port
-API Endpoints:
-/contacts - Contact-related operations
-...
+- API Endpoints:
+  - /contacts - Contact-related operations
+  - ...
+    
 API Gateway:
 
 Base URL: http://api-gateway:port
