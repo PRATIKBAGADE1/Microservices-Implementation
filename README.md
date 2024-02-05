@@ -38,18 +38,17 @@ User Microservice <----> Contact Microservice
 
 ## Key Components:
 
-Eureka Server:
+### Eureka Server:
+- Base URL: http://eureka-server:8761
 
-Base URL: http://eureka-server:8761
-User Microservice:
+### User Microservice:
+- Base URL: http://user-service:port
+- API Endpoints:
+- - /users - User-related operations
+- - ...
 
-Base URL: http://user-service:port
-API Endpoints:
-/users - User-related operations
-...
-Contact Microservice:
-
-Base URL: http://contact-service:port
+### Contact Microservice:
+- Base URL: http://contact-service:port
 API Endpoints:
 /contacts - Contact-related operations
 ...
