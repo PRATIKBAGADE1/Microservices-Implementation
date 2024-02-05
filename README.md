@@ -1,4 +1,6 @@
 ﻿# Microservices Architecture:
+ 
+This microservices setup utilizes Eureka Server for service registration and discovery. User and Contact microservices communicate through Eureka, while an API Gateway handles external client requests, directing them to the appropriate microservices. The design focuses on scalability, flexibility, and secure communication, with monitoring, logging, and detailed documentation ensuring a reliable and maintainable system.
 
 ## Eureka Server:
 - Service Registry for microservices.
