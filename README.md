@@ -23,6 +23,10 @@
 
 
 ## Communicaion Flow
+- External clients interact with the API Gateway.
+- The API Gateway routes requests to the corresponding microservices based on the endpoint.
+- Microservices communicate with each other through Eureka Server.
+- Service discovery ensures that communication is resilient to changes in microservice instances.
 
 ```bash 
 External Client
