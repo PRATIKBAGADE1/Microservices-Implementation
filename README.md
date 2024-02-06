@@ -45,6 +45,7 @@ User Microservice <----> Contact Microservice
 ## Key Components:
 
 ### Eureka Server:
+```bash 
 - Base URL: http://eureka-server:8761
 
 ### User Microservice:
