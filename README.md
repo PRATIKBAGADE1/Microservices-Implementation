@@ -9,7 +9,7 @@ This microservices setup utilizes Eureka Server for service registration and dis
 - REST Api
 - PostMan
 
-## Eureka Server:
+- ## Eureka Server:
 - Service Registry for microservices.
 - Manages service registration and discovery.
 - Keeps track of available services.
