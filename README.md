@@ -2,6 +2,13 @@
  
 This microservices setup utilizes Eureka Server for service registration and discovery. User and Contact microservices communicate through Eureka, while an API Gateway handles external client requests, directing them to the appropriate microservices. The design focuses on scalability, flexibility, and secure communication, with monitoring, logging, and detailed documentation ensuring a reliable and maintainable system.
 
+### Technologies Used
+- Java
+- Spring Boot
+- Microservices
+- REST Api
+- PostMan
+
 ## Eureka Server:
 - Service Registry for microservices.
 - Manages service registration and discovery.
