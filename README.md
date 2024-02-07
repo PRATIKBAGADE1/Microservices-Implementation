@@ -10,14 +10,14 @@ This microservices setup utilizes Eureka Server for service registration and dis
 - PostMan
 
 - ## Eureka Server:
-- Service Registry for microservices.
-- Manages service registration and discovery.
-- Keeps track of available services.
+ - Service Registry for microservices.
+ - Manages service registration and discovery.
+ - Keeps track of available services.
 
-## User Microservice:
-- Manages user-related functionalities.
-- Registers with Eureka Server for service discovery.
-- Communicates with Contact Microservice.
+- ## User Microservice:
+  - Manages user-related functionalities. 
+  - Registers with Eureka Server for service discovery.
+  - Communicates with Contact Microservice.
 
 ## Contact Microservice:
 - Handles operations related to contacts.
