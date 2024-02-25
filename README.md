@@ -8,7 +8,7 @@ This microservices setup utilizes Eureka Server for service registration and dis
 - Microservices
 - REST Api
 - PostMan
-- JDBC
+  
 
 ## Eureka Server:
  - Service Registry for microservices.
