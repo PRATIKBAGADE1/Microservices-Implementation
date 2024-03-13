@@ -53,7 +53,8 @@ User Microservice <----> Contact Microservice
 ## Key Components:
 
 ### Eureka Server:
-- Base URL: http://eureka-server:8761
+- Base URL: http://eureka-server:8761'
+- base URL
 
 ### User Microservice:
 - Base URL: http://user-service:9001
